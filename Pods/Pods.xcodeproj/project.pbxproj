@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16991AB52FDBFF314F557C0BD46851AF /* Pods-TeamUpApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 708FACEF22FC05380CDFD4338D49F034 /* Pods-TeamUpApp-dummy.m */; };
+		399A54D27959E5A2AEBDD3F13941183F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C85D6D9E12E3ECE70D9529B9D25E7B2B /* Pods-TeamUpApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6514642941CC421B0C5A9D307762F0 /* Pods-TeamUpApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC7E6CC0C97B0A59EF69D89E497A4AFB /* Pods-TeamUpAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77ED3D8AE13D46D5A4A589171BB9B1AC /* Pods-TeamUpAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D73E3870B2DC7DC8DE2443C59E5B0E4A /* Pods-TeamUpAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7590572016E2C1313DCE542993D46864 /* Pods-TeamUpAppTests-dummy.m */; };
+		E5F31D3A4C991AF597967D799567DF80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003FB90391BF35FDC175286D9C29C594 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A4449E6EFE10E128DE9BD24F558157 /* Pods-TeamUpApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TeamUpApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15C4DD9D97FB63DB50A5858E65851C83 /* Pods-TeamUpAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TeamUpAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15E46424E3F24F73479B4895F0395A05 /* Pods-TeamUpAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TeamUpAppTests-resources.sh"; sourceTree = "<group>"; };
+		220551E2BC91864F03381598579CE47D /* Pods-TeamUpApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TeamUpApp-frameworks.sh"; sourceTree = "<group>"; };
+		40C177E819D186FF6EED76E80471B8DF /* Pods-TeamUpAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TeamUpAppTests.modulemap"; sourceTree = "<group>"; };
+		4BCC0F2484CCD0BA59D2D8665861B525 /* Pods-TeamUpApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TeamUpApp-resources.sh"; sourceTree = "<group>"; };
+		5D1369175D2DCC84D4B446F6895A4147 /* Pods_TeamUpApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TeamUpApp.framework; path = "Pods-TeamUpApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		607B2AC94EF9F78D556F3B834C0CA4D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D579E8DA806190162C44E90DBAE4F7 /* Pods-TeamUpAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TeamUpAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		708FACEF22FC05380CDFD4338D49F034 /* Pods-TeamUpApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TeamUpApp-dummy.m"; sourceTree = "<group>"; };
+		7590572016E2C1313DCE542993D46864 /* Pods-TeamUpAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TeamUpAppTests-dummy.m"; sourceTree = "<group>"; };
+		77ED3D8AE13D46D5A4A589171BB9B1AC /* Pods-TeamUpAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TeamUpAppTests-umbrella.h"; sourceTree = "<group>"; };
+		867F277E4EF2AC29C02ED9A455287CC5 /* Pods-TeamUpApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TeamUpApp.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6A5F7E1C737813222649B78D895F740 /* Pods-TeamUpApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TeamUpApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE6514642941CC421B0C5A9D307762F0 /* Pods-TeamUpApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TeamUpApp-umbrella.h"; sourceTree = "<group>"; };
+		B2BC87AC9C451A921390F38F952F3188 /* Pods-TeamUpAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TeamUpAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A98E2F93AF718715345B2FCA10C4B0 /* Pods-TeamUpAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TeamUpAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BEEAB3053BEFF6A76AD180E3509570BE /* Pods-TeamUpApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TeamUpApp.modulemap"; sourceTree = "<group>"; };
+		BFB7BAB4E6E3D49D2B3866E9654D941A /* Pods-TeamUpApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TeamUpApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C0B780A994C87AC92BF5CC9301087635 /* Pods_TeamUpAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TeamUpAppTests.framework; path = "Pods-TeamUpAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C928453613C7A83354DE01ED5CE6DB79 /* Pods-TeamUpAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TeamUpAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A595E00659DE5C282FEC940782AB5F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399A54D27959E5A2AEBDD3F13941183F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4D2EBC0D8A98CC652F4F458CD1B969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F31D3A4C991AF597967D799567DF80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56ED6669CFEAD5269E2BA99000C43498 /* Pods-TeamUpApp */ = {
+			isa = PBXGroup;
+			children = (
+				003FB90391BF35FDC175286D9C29C594 /* Info.plist */,
+				BEEAB3053BEFF6A76AD180E3509570BE /* Pods-TeamUpApp.modulemap */,
+				11A4449E6EFE10E128DE9BD24F558157 /* Pods-TeamUpApp-acknowledgements.markdown */,
+				A6A5F7E1C737813222649B78D895F740 /* Pods-TeamUpApp-acknowledgements.plist */,
+				708FACEF22FC05380CDFD4338D49F034 /* Pods-TeamUpApp-dummy.m */,
+				220551E2BC91864F03381598579CE47D /* Pods-TeamUpApp-frameworks.sh */,
+				4BCC0F2484CCD0BA59D2D8665861B525 /* Pods-TeamUpApp-resources.sh */,
+				AE6514642941CC421B0C5A9D307762F0 /* Pods-TeamUpApp-umbrella.h */,
+				BFB7BAB4E6E3D49D2B3866E9654D941A /* Pods-TeamUpApp.debug.xcconfig */,
+				867F277E4EF2AC29C02ED9A455287CC5 /* Pods-TeamUpApp.release.xcconfig */,
+			);
+			name = "Pods-TeamUpApp";
+			path = "Target Support Files/Pods-TeamUpApp";
+			sourceTree = "<group>";
+		};
+		79BB312CF39DCEC5EC79F120946E7755 /* Pods-TeamUpAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				607B2AC94EF9F78D556F3B834C0CA4D4 /* Info.plist */,
+				40C177E819D186FF6EED76E80471B8DF /* Pods-TeamUpAppTests.modulemap */,
+				C928453613C7A83354DE01ED5CE6DB79 /* Pods-TeamUpAppTests-acknowledgements.markdown */,
+				15C4DD9D97FB63DB50A5858E65851C83 /* Pods-TeamUpAppTests-acknowledgements.plist */,
+				7590572016E2C1313DCE542993D46864 /* Pods-TeamUpAppTests-dummy.m */,
+				60D579E8DA806190162C44E90DBAE4F7 /* Pods-TeamUpAppTests-frameworks.sh */,
+				15E46424E3F24F73479B4895F0395A05 /* Pods-TeamUpAppTests-resources.sh */,
+				77ED3D8AE13D46D5A4A589171BB9B1AC /* Pods-TeamUpAppTests-umbrella.h */,
+				B2BC87AC9C451A921390F38F952F3188 /* Pods-TeamUpAppTests.debug.xcconfig */,
+				B5A98E2F93AF718715345B2FCA10C4B0 /* Pods-TeamUpAppTests.release.xcconfig */,
+			);
+			name = "Pods-TeamUpAppTests";
+			path = "Target Support Files/Pods-TeamUpAppTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BD0EEF58C50B0070CEB4D012D5D67A5F /* Products */,
+				C39A63E49B2F26ED51971293E6244A2B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD0EEF58C50B0070CEB4D012D5D67A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D1369175D2DCC84D4B446F6895A4147 /* Pods_TeamUpApp.framework */,
+				C0B780A994C87AC92BF5CC9301087635 /* Pods_TeamUpAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39A63E49B2F26ED51971293E6244A2B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56ED6669CFEAD5269E2BA99000C43498 /* Pods-TeamUpApp */,
+				79BB312CF39DCEC5EC79F120946E7755 /* Pods-TeamUpAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F1F9E78C38C04DF0A951A93EC02940B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85D6D9E12E3ECE70D9529B9D25E7B2B /* Pods-TeamUpApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6B4C70E8890AB325F566A494888810 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7E6CC0C97B0A59EF69D89E497A4AFB /* Pods-TeamUpAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ACBD1A84D7CD85D50532CF07A7E91E56 /* Pods-TeamUpAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A761109022DE4B3C0CE6CEB9AD47397 /* Build configuration list for PBXNativeTarget "Pods-TeamUpAppTests" */;
+			buildPhases = (
+				B9CC3FD9AE27412AE075511C3D6152C0 /* Sources */,
+				EC4D2EBC0D8A98CC652F4F458CD1B969 /* Frameworks */,
+				AB6B4C70E8890AB325F566A494888810 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TeamUpAppTests";
+			productName = "Pods-TeamUpAppTests";
+			productReference = C0B780A994C87AC92BF5CC9301087635 /* Pods_TeamUpAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0911E80923C10FCF004300E2CDCD1DB /* Pods-TeamUpApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EED670895715F6C11EF8F2A8A90CDE /* Build configuration list for PBXNativeTarget "Pods-TeamUpApp" */;
+			buildPhases = (
+				95BAC3C02F8471DC928A9F103C5AE3F9 /* Sources */,
+				A595E00659DE5C282FEC940782AB5F22 /* Frameworks */,
+				1F1F9E78C38C04DF0A951A93EC02940B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TeamUpApp";
+			productName = "Pods-TeamUpApp";
+			productReference = 5D1369175D2DCC84D4B446F6895A4147 /* Pods_TeamUpApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BD0EEF58C50B0070CEB4D012D5D67A5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0911E80923C10FCF004300E2CDCD1DB /* Pods-TeamUpApp */,
+				ACBD1A84D7CD85D50532CF07A7E91E56 /* Pods-TeamUpAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95BAC3C02F8471DC928A9F103C5AE3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16991AB52FDBFF314F557C0BD46851AF /* Pods-TeamUpApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CC3FD9AE27412AE075511C3D6152C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73E3870B2DC7DC8DE2443C59E5B0E4A /* Pods-TeamUpAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D2936D0DC9E8A617964CBE759C05E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB7BAB4E6E3D49D2B3866E9654D941A /* Pods-TeamUpApp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TeamUpApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TeamUpApp/Pods-TeamUpApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TeamUpApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E3B171FC21308F410F75B23A0865521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A98E2F93AF718715345B2FCA10C4B0 /* Pods-TeamUpAppTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TeamUpAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TeamUpAppTests/Pods-TeamUpAppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TeamUpAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6665368B169C759EF751244CD639F5E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BC87AC9C451A921390F38F952F3188 /* Pods-TeamUpAppTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TeamUpAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TeamUpAppTests/Pods-TeamUpAppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TeamUpAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		872E1184225031AEECC8F97E0B73D73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867F277E4EF2AC29C02ED9A455287CC5 /* Pods-TeamUpApp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TeamUpApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TeamUpApp/Pods-TeamUpApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TeamUpApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EED670895715F6C11EF8F2A8A90CDE /* Build configuration list for PBXNativeTarget "Pods-TeamUpApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2936D0DC9E8A617964CBE759C05E76 /* Debug */,
+				872E1184225031AEECC8F97E0B73D73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A761109022DE4B3C0CE6CEB9AD47397 /* Build configuration list for PBXNativeTarget "Pods-TeamUpAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6665368B169C759EF751244CD639F5E7 /* Debug */,
+				3E3B171FC21308F410F75B23A0865521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

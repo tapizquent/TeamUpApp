@@ -1,0 +1,6 @@
+framework module Pods_TeamUpAppTests {
+  umbrella header "Pods-TeamUpAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
