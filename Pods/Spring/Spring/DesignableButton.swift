@@ -24,13 +24,13 @@ import UIKit
 
 @IBDesignable public class DesignableButton: SpringButton {
 
-    @IBInspectable override public var borderColor: UIColor {
+    @IBInspectable public var borderColor: UIColor = UIColor.clear {
         didSet {
             layer.borderColor = borderColor.cgColor
         }
     }
     
-    @IBInspectable override public var borderWidth: CGFloat {
+    @IBInspectable public var borderWidth: CGFloat = 0 {
         didSet {
             layer.borderWidth = borderWidth
         }

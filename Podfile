@@ -8,6 +8,14 @@ target 'TeamUpApp' do
   # Pods for TeamUpApp
   pod 'RAMAnimatedTabBarController', "~> 2.0.13"
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
+  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'SwiftVideoBackground'
+  pod 'SwiftKeychainWrapper'
+  pod 'Hero'
 
   target 'TeamUpAppTests' do
     inherit! :search_paths

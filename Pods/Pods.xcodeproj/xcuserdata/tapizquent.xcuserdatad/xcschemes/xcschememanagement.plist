@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GTMSessionFetcher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Hero.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-TeamUpApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,25 +39,80 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftKeychainWrapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftVideoBackground.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>leveldb-library.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>nanopb.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1BC2631D1A14B2AC028623A0ABDE2965</key>
+		<key>0D2E51FD50039BAAC164251E4AB74471</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>397386F46E7E5B4F64948E1854E44DB1</key>
+		<key>107A9565F9DF88517DFD3E28C05B2B96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AA82CA03026E54F628EBFBA85D836CCB</key>
+		<key>266AE1506DAD13D34C0725E909C0C476</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4A3E211676B243619B026D147D272253</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E542D7845FE13CDAEB2A506B73FD737</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>ACBD1A84D7CD85D50532CF07A7E91E56</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2B94652BEED5357C7A3BD484DDCBE35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4DD95323C54A78F879DAB0F1508B8E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE1212EAC894714FFAE1261843841BED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F3C606C645B583D848B083BB0002A1B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

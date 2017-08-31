@@ -40,18 +40,6 @@ open class SpringButton: UIButton, Springable {
     @IBInspectable public var curve: String = ""
     public var opacity: CGFloat = 1
     public var animateFrom: Bool = false
-    
-    @IBInspectable var borderWidth: CGFloat = 0 {
-        didSet {
-            self.layer.borderWidth = borderWidth
-        }
-    }
-    
-    @IBInspectable var borderColor: UIColor = UIColor.clear {
-        didSet {
-            self.layer.borderColor = borderColor.cgColor
-        }
-    }
 
     lazy private var spring : Spring = Spring(self)
 

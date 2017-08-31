@@ -16,9 +16,19 @@
 		D0DCBF241F57095800A27E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DCBF221F57095800A27E29 /* LaunchScreen.storyboard */; };
 		D0DCBF2F1F57095800A27E29 /* TeamUpAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCBF2E1F57095800A27E29 /* TeamUpAppTests.swift */; };
 		D0DCBF591F57179200A27E29 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = D0DCBF581F57179200A27E29 /* Roboto */; };
-		D0DCBF5C1F5719AA00A27E29 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCBF5B1F5719AA00A27E29 /* CustomButtons.swift */; };
 		D0DD23631F5797E900B944B4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD23621F5797E900B944B4 /* Constants.swift */; };
 		D0DD23651F57983800B944B4 /* CustomImgShadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD23641F57983800B944B4 /* CustomImgShadows.swift */; };
+		D0DD23671F579F8500B944B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0DD23661F579F8500B944B4 /* GoogleService-Info.plist */; };
+		D0DD236E1F57A82500B944B4 /* Tourists.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D0DD236D1F57A82500B944B4 /* Tourists.mp4 */; };
+		D0DD23721F57AC2600B944B4 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD23711F57AC2600B944B4 /* CustomButtons.swift */; };
+		D0DD23741F57AE5D00B944B4 /* Coastline.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D0DD23731F57AE5D00B944B4 /* Coastline.mp4 */; };
+		D0DD23761F57AF4F00B944B4 /* CityLights.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D0DD23751F57AF4F00B944B4 /* CityLights.mp4 */; };
+		D0DD23781F57AF9100B944B4 /* Drone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D0DD23771F57AF9100B944B4 /* Drone.mp4 */; };
+		D0DD237A1F57B05900B944B4 /* New York City.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D0DD23791F57B05900B944B4 /* New York City.mp4 */; };
+		D0DD237C1F57B06000B944B4 /* Carousel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D0DD237B1F57B06000B944B4 /* Carousel.mp4 */; };
+		D0DD237E1F57B3B600B944B4 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD237D1F57B3B600B944B4 /* ViewExtension.swift */; };
+		D0DD23801F57C2D100B944B4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD237F1F57C2D100B944B4 /* LoginVC.swift */; };
+		D0DD23821F57C9AB00B944B4 /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD23811F57C9AB00B944B4 /* CustomTF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +58,19 @@
 		D0DCBF2E1F57095800A27E29 /* TeamUpAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamUpAppTests.swift; sourceTree = "<group>"; };
 		D0DCBF301F57095800A27E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0DCBF581F57179200A27E29 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
-		D0DCBF5B1F5719AA00A27E29 /* CustomButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
 		D0DD23621F5797E900B944B4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D0DD23641F57983800B944B4 /* CustomImgShadows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImgShadows.swift; sourceTree = "<group>"; };
+		D0DD23661F579F8500B944B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0DD236D1F57A82500B944B4 /* Tourists.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tourists.mp4; path = ../../../../Videos/Tourists.mp4; sourceTree = "<group>"; };
+		D0DD23711F57AC2600B944B4 /* CustomButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		D0DD23731F57AE5D00B944B4 /* Coastline.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Coastline.mp4; path = ../../../../Videos/Coastline.mp4; sourceTree = "<group>"; };
+		D0DD23751F57AF4F00B944B4 /* CityLights.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = CityLights.mp4; path = ../../../../Videos/CityLights.mp4; sourceTree = "<group>"; };
+		D0DD23771F57AF9100B944B4 /* Drone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Drone.mp4; path = ../../../../Videos/Drone.mp4; sourceTree = "<group>"; };
+		D0DD23791F57B05900B944B4 /* New York City.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "New York City.mp4"; path = "../../../../Videos/New York City.mp4"; sourceTree = "<group>"; };
+		D0DD237B1F57B06000B944B4 /* Carousel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Carousel.mp4; path = ../../../../Videos/Carousel.mp4; sourceTree = "<group>"; };
+		D0DD237D1F57B3B600B944B4 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		D0DD237F1F57C2D100B944B4 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D0DD23811F57C9AB00B944B4 /* CustomTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
 		F139C50B36AE53B51E5AFC8F /* Pods-TeamUpAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamUpAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamUpAppTests/Pods-TeamUpAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +137,7 @@
 		D0DCBF181F57095800A27E29 /* TeamUpApp */ = {
 			isa = PBXGroup;
 			children = (
+				D0DD23681F57A6F200B944B4 /* Videos */,
 				D0DD23611F5797DE00B944B4 /* Util */,
 				D0DCBF5A1F57199600A27E29 /* Extensions */,
 				D0DCBF581F57179200A27E29 /* Roboto */,
@@ -130,6 +151,7 @@
 				D0DCBF201F57095800A27E29 /* Assets.xcassets */,
 				D0DCBF221F57095800A27E29 /* LaunchScreen.storyboard */,
 				D0DCBF251F57095800A27E29 /* Info.plist */,
+				D0DD23661F579F8500B944B4 /* GoogleService-Info.plist */,
 			);
 			path = TeamUpApp;
 			sourceTree = "<group>";
@@ -147,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				D0DCBF1B1F57095800A27E29 /* MainVC.swift */,
+				D0DD237F1F57C2D100B944B4 /* LoginVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -155,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				D0DD23641F57983800B944B4 /* CustomImgShadows.swift */,
+				D0DD23711F57AC2600B944B4 /* CustomButtons.swift */,
+				D0DD23811F57C9AB00B944B4 /* CustomTF.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -183,7 +208,7 @@
 		D0DCBF5A1F57199600A27E29 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D0DCBF5B1F5719AA00A27E29 /* CustomButtons.swift */,
+				D0DD237D1F57B3B600B944B4 /* ViewExtension.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -194,6 +219,19 @@
 				D0DD23621F5797E900B944B4 /* Constants.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		D0DD23681F57A6F200B944B4 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD237B1F57B06000B944B4 /* Carousel.mp4 */,
+				D0DD23791F57B05900B944B4 /* New York City.mp4 */,
+				D0DD23771F57AF9100B944B4 /* Drone.mp4 */,
+				D0DD23751F57AF4F00B944B4 /* CityLights.mp4 */,
+				D0DD23731F57AE5D00B944B4 /* Coastline.mp4 */,
+				D0DD236D1F57A82500B944B4 /* Tourists.mp4 */,
+			);
+			name = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,8 +325,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0DD23741F57AE5D00B944B4 /* Coastline.mp4 in Resources */,
+				D0DD23761F57AF4F00B944B4 /* CityLights.mp4 in Resources */,
+				D0DD236E1F57A82500B944B4 /* Tourists.mp4 in Resources */,
+				D0DD237C1F57B06000B944B4 /* Carousel.mp4 in Resources */,
 				D0DCBF241F57095800A27E29 /* LaunchScreen.storyboard in Resources */,
+				D0DD237A1F57B05900B944B4 /* New York City.mp4 in Resources */,
 				D0DCBF211F57095800A27E29 /* Assets.xcassets in Resources */,
+				D0DD23781F57AF9100B944B4 /* Drone.mp4 in Resources */,
+				D0DD23671F579F8500B944B4 /* GoogleService-Info.plist in Resources */,
 				D0DCBF1F1F57095800A27E29 /* Main.storyboard in Resources */,
 				D0DCBF591F57179200A27E29 /* Roboto in Resources */,
 			);
@@ -392,13 +437,27 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TeamUpApp/Pods-TeamUpApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftVideoBackground/SwiftVideoBackground.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftVideoBackground.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -412,11 +471,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0DD237E1F57B3B600B944B4 /* ViewExtension.swift in Sources */,
 				D0DD23631F5797E900B944B4 /* Constants.swift in Sources */,
+				D0DD23801F57C2D100B944B4 /* LoginVC.swift in Sources */,
 				D0DCBF1C1F57095800A27E29 /* MainVC.swift in Sources */,
 				D0DD23651F57983800B944B4 /* CustomImgShadows.swift in Sources */,
-				D0DCBF5C1F5719AA00A27E29 /* CustomButtons.swift in Sources */,
 				D0DCBF1A1F57095800A27E29 /* AppDelegate.swift in Sources */,
+				D0DD23821F57C9AB00B944B4 /* CustomTF.swift in Sources */,
+				D0DD23721F57AC2600B944B4 /* CustomButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
