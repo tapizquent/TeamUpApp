@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import Spring
 
 class MainVC: UIViewController {
+    
+    @IBOutlet weak var newAccBtn: SpringButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        applyBackgroundtoView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +25,14 @@ class MainVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func applyBackgroundtoView(){
+        self.view.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "City Img Background"))
+    }
+    @IBAction func newAccBtnPressed(_ sender: Any) {
+        print("Create account pressed")
+        newAccBtn.animation = "flash"
+        newAccBtn.animate()
+    }
+    
 }
 

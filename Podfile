@@ -6,6 +6,8 @@ target 'TeamUpApp' do
   use_frameworks!
 
   # Pods for TeamUpApp
+  pod 'RAMAnimatedTabBarController', "~> 2.0.13"
+  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
 
   target 'TeamUpAppTests' do
     inherit! :search_paths

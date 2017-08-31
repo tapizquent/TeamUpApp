@@ -15,6 +15,10 @@
 		D0DCBF211F57095800A27E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DCBF201F57095800A27E29 /* Assets.xcassets */; };
 		D0DCBF241F57095800A27E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DCBF221F57095800A27E29 /* LaunchScreen.storyboard */; };
 		D0DCBF2F1F57095800A27E29 /* TeamUpAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCBF2E1F57095800A27E29 /* TeamUpAppTests.swift */; };
+		D0DCBF591F57179200A27E29 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = D0DCBF581F57179200A27E29 /* Roboto */; };
+		D0DCBF5C1F5719AA00A27E29 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCBF5B1F5719AA00A27E29 /* CustomButtons.swift */; };
+		D0DD23631F5797E900B944B4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD23621F5797E900B944B4 /* Constants.swift */; };
+		D0DD23651F57983800B944B4 /* CustomImgShadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD23641F57983800B944B4 /* CustomImgShadows.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		D0DCBF2A1F57095800A27E29 /* TeamUpAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamUpAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DCBF2E1F57095800A27E29 /* TeamUpAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamUpAppTests.swift; sourceTree = "<group>"; };
 		D0DCBF301F57095800A27E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DCBF581F57179200A27E29 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
+		D0DCBF5B1F5719AA00A27E29 /* CustomButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		D0DD23621F5797E900B944B4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D0DD23641F57983800B944B4 /* CustomImgShadows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImgShadows.swift; sourceTree = "<group>"; };
 		F139C50B36AE53B51E5AFC8F /* Pods-TeamUpAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamUpAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamUpAppTests/Pods-TeamUpAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +117,10 @@
 		D0DCBF181F57095800A27E29 /* TeamUpApp */ = {
 			isa = PBXGroup;
 			children = (
+				D0DD23611F5797DE00B944B4 /* Util */,
+				D0DCBF5A1F57199600A27E29 /* Extensions */,
+				D0DCBF581F57179200A27E29 /* Roboto */,
+				D0DCBF3D1F57170100A27E29 /* Fonts */,
 				D0DCBF3C1F570EA600A27E29 /* Services */,
 				D0DCBF3B1F570EA100A27E29 /* Model */,
 				D0DCBF3A1F570E9C00A27E29 /* View */,
@@ -142,6 +154,7 @@
 		D0DCBF3A1F570E9C00A27E29 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D0DD23641F57983800B944B4 /* CustomImgShadows.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -158,6 +171,29 @@
 			children = (
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		D0DCBF3D1F57170100A27E29 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		D0DCBF5A1F57199600A27E29 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0DCBF5B1F5719AA00A27E29 /* CustomButtons.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D0DD23611F5797DE00B944B4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD23621F5797E900B944B4 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +290,7 @@
 				D0DCBF241F57095800A27E29 /* LaunchScreen.storyboard in Resources */,
 				D0DCBF211F57095800A27E29 /* Assets.xcassets in Resources */,
 				D0DCBF1F1F57095800A27E29 /* Main.storyboard in Resources */,
+				D0DCBF591F57179200A27E29 /* Roboto in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,9 +391,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TeamUpApp/Pods-TeamUpApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,7 +412,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0DD23631F5797E900B944B4 /* Constants.swift in Sources */,
 				D0DCBF1C1F57095800A27E29 /* MainVC.swift in Sources */,
+				D0DD23651F57983800B944B4 /* CustomImgShadows.swift in Sources */,
+				D0DCBF5C1F5719AA00A27E29 /* CustomButtons.swift in Sources */,
 				D0DCBF1A1F57095800A27E29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +632,7 @@
 				D0DCBF351F57095800A27E29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0DCBF361F57095800A27E29 /* Build configuration list for PBXNativeTarget "TeamUpAppTests" */ = {
 			isa = XCConfigurationList;
@@ -595,6 +641,7 @@
 				D0DCBF381F57095800A27E29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
